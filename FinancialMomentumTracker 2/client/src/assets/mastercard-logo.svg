@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="80" viewBox="0 0 150 80" fill="none">
+  <g>
+    <circle cx="50" cy="40" r="20" fill="#EB001B"/>
+    <circle cx="80" cy="40" r="20" fill="#F79E1B"/>
+    <path d="M65 25C60.2 28.6 57 33.9 57 40C57 46.1 60.2 51.4 65 55C69.8 51.4 73 46.1 73 40C73 33.9 69.8 28.6 65 25Z" fill="#FF5F00"/>
+    <text x="100" y="45" font-family="Arial" font-size="14" font-weight="500" fill="white">mastercard</text>
+  </g>
+</svg>

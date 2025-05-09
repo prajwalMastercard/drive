@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60">
+  <rect width="240" height="60" fill="#000000" />
+  <g transform="translate(20,20)">
+    <!-- Mastercard Circles -->
+    <circle cx="10" cy="10" r="10" fill="#EB001B"/>
+    <circle cx="30" cy="10" r="10" fill="#F79E1B"/>
+    <path d="M20 0C15.4 3.6 13 7.5 13 10C13 12.5 15.4 16.4 20 20C24.6 16.4 27 12.5 27 10C27 7.5 24.6 3.6 20 0Z" fill="#FF5F00"/>
+    
+    <!-- Text "mastercard" -->
+    <text x="48" y="14" font-family="Arial" font-size="12" font-weight="normal" fill="white">mastercard</text>
+  </g>
+</svg>

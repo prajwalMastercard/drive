@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="60" viewBox="0 0 270 60">
+  <rect width="270" height="60" fill="#000000" />
+  <g transform="translate(20,15)">
+    <!-- Mastercard Circles -->
+    <circle cx="15" cy="15" r="15" fill="#EB001B"/>
+    <circle cx="45" cy="15" r="15" fill="#F79E1B"/>
+    <path d="M30 0C23.1 5.4 19.5 11.3 19.5 15C19.5 18.7 23.1 24.6 30 30C36.9 24.6 40.5 18.7 40.5 15C40.5 11.3 36.9 5.4 30 0Z" fill="#FF5F00"/>
+    
+    <!-- Text "mastercard" with increased font size -->
+    <text x="70" y="21" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">mastercard</text>
+    
+    <!-- Reduced spacing (1 space) -->
+    <text x="150" y="21" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="transparent">_</text>
+  </g>
+</svg>
