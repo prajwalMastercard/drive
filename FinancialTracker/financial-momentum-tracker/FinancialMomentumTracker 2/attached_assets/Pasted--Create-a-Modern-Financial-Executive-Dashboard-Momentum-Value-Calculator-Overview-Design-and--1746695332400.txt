@@ -1,0 +1,59 @@
+# Create a Modern Financial Executive Dashboard: Momentum Value Calculator
+ 
+## Overview
+Design and implement a modern, executive-style dashboard called "Momentum Value Calculator" for financial professionals. This dashboard visualizes portfolio recommendations and opportunity values with Mastercard-inspired branding.
+ 
+## Design & Styling Requirements
+- **Color scheme**: Use Mastercard brand colors (primary red #EB001B, orange #FF5F00, balanced with white backgrounds and dark slate text)
+- **Card layout**: All content contained in elegant rounded cards with subtle shadows and clean white backgrounds
+- **Typography**: Clean sans-serif fonts, clear hierarchy with section titles, card headers, and data values
+- **Responsive design**: Layout should adapt for desktop and tablet views (minimum 768px width support)
+ 
+## Core Components
+ 
+### 1. Top Navigation/Header
+- Issuer name label ("Citi Bank") in top-left corner
+- Portfolio toggle (Credit/Debit) with selector in top-right corner
+- Navigation tabs for "Portfolio Recommendations" and "Value Calculator"
+ 
+### 2. Portfolio Recommendations Page
+- Title "Portfolio Recommendations" at top
+- Opportunity Score Card showing dynamic value ($1M for Credit, $750K for Debit)
+- Single-column "Total Accounts Breakdown" chart showing stacked bar visualization for account segments
+- Grid of recommendation cards (3 per row on desktop, 1 on mobile) showing:
+  * Title of recommendation
+  * Portfolio type badge
+  * List of recommended actions (4 bullet points)
+  * "Calculate Value" button
+ 
+### 3. Value Calculator Page
+- Title "Value Calculator" at top
+- Subtitle showing selected recommendation
+- Opportunity Score Card similar to recommendations page
+- Parameter input section with fields for:
+  * Time period
+  * Target audience
+  * Campaign frequency
+  * Target channels
+- "Calculate" button
+- Results section showing calculated value in prominent red text
+- Propensity Models section containing:
+  * Card Present vs Card Not Present chart (pie chart + data table)
+  * Portfolio Usage by Channel (horizontal bar chart)
+  * Industry breakdown (bar chart + data table)
+  * Merchant breakdown (donut chart + data table)
+  * Addressability Scaling line graph
+ 
+## Data & Functionality
+- Dynamic data based on portfolio selection (Credit vs Debit)
+- All charts should be interactive with tooltips
+- Data tables paired with visualizations for key metrics
+- Calculated value reflects the selected recommendation and parameters
+ 
+## Technical Implementation
+- Modern React components with functional approach
+- Styled with Tailwind CSS
+- Use Recharts for data visualization
+- Responsive grid layouts
+- Clean, modern UI patterns following dashboard best practices
+- Context-based state management for portfolio selection

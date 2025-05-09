@@ -1,0 +1,32 @@
+modules = ["python-3.11", "nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "FinancialMomentumTracker"
+
+[[workflows.workflow]]
+name = "FinancialMomentumTracker"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd \"./financial-momentum-tracker/FinancialMomentumTracker 2\" && npm install && npm run dev"
+waitForPort = 5000
+
+[deployment]
+run = ["sh", "-c", "chmod +x clone_repo.sh analyze_codebase.py && ./clone_repo.sh"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
